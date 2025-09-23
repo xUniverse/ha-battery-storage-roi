@@ -1,5 +1,3 @@
-![Battery Storage ROI banner](docs/images/banner.svg)
-
 # Battery Storage ROI — Home Assistant Integration
 
 [![GitHub release](https://img.shields.io/github/v/release/lemuba/ha-battery-storage-roi)](https://github.com/lemuba/ha-battery-storage-roi/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
