@@ -202,7 +202,7 @@ custom_components/battery_storage_roi/
       ├── de.json
       └── en.json
 docs/
-  └── images/  (add screenshots here)
+  └── images/
 ```
 
 ---
