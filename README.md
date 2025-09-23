@@ -7,7 +7,7 @@
 A Home Assistant custom integration that calculates **efficiency, savings, and ROI** for a battery storage system from your **cumulative charge/discharge energy sensors**.  
 Includes rich KPIs, comparison metrics for friendly benchmarking, and a tidy device with grouped entities.
 
-> Version: 1.4.1 · Python 3 · Home Assistant custom component
+> Version: 1.4.1 · Python 3 · Home Assistant custom component (created with ChatGPT 5)
 
 ---
 
