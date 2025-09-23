@@ -1,0 +1,13 @@
+{
+  "domain": "battery_storage_roi",
+  "name": "Battery Storage ROI",
+  "config_flow": true,
+  "codeowners": [
+    "@you"
+  ],
+  "documentation": "https://example.invalid/battery_storage_roi",
+  "issue_tracker": "https://example.invalid/battery_storage_roi/issues",
+  "version": "1.4.1",
+  "iot_class": "calculated",
+  "requirements": []
+}

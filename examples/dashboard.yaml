@@ -1,0 +1,46 @@
+# examples/dashboard.yaml
+# Import this as a new dashboard in Home Assistant (Settings → Dashboards → + Add Dashboard → 'Manual', then paste).
+title: Battery ROI
+views:
+  - path: battery-roi
+    title: Battery ROI
+    icon: mdi:battery-heart
+    cards:
+      - type: markdown
+        content: |
+          # Battery Storage ROI
+          **System:** `{{ states('sensor.battery_storage_roi_battery_usable_capacity') }} kWh`  
+          **Start:** `{{ states('sensor.battery_storage_roi_start_date') }}`
+      - type: tile
+        entity: sensor.battery_storage_roi_roi_summary
+        name: ROI Summary
+        vertical: true
+        features:
+          - type: graph
+            graph: line
+      - type: entities
+        title: KPIs
+        show_header_toggle: false
+        entities:
+          - entity: binary_sensor.battery_storage_roi_inputs_ok
+            name: Inputs OK
+          - sensor.battery_storage_roi_days_in_operation
+          - sensor.battery_storage_roi_efficiency
+          - sensor.battery_storage_roi_net_benefit_per_day
+          - sensor.battery_storage_roi_avoided_grid_costs
+          - sensor.battery_storage_roi_opportunity_costs
+          - sensor.battery_storage_roi_roi_days_remaining
+          - sensor.battery_storage_roi_roi_date
+      - type: entities
+        title: Energy since start
+        entities:
+          - sensor.battery_storage_roi_charged_since_start
+          - sensor.battery_storage_roi_discharged_since_start
+          - sensor.battery_storage_roi_battery_usable_capacity
+      - type: entities
+        title: Benchmark
+        entities:
+          - sensor.battery_storage_roi_money_efficiency_per_kwh_out
+          - sensor.battery_storage_roi_money_efficiency_per_kwh_in
+          - sensor.battery_storage_roi_specific_net_yield
+          - sensor.battery_storage_roi_cycles_per_day

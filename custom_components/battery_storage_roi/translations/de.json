@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Batteriespeicher ROI",
+        "description": "Berechnet Wirkungsgrad, Ersparnis und ROI aus deinen kumulativen Lade-/Entladesensoren.",
+        "data": {
+          "name": "Systemname (z. B. \u201eKellerakku\u201c)",
+          "start_date": "Inbetriebnahmedatum",
+          "install_cost_eur": "Installationskosten (\u20ac)",
+          "grid_price_eur_per_kwh": "Bezugspreis (\u20ac / kWh)",
+          "feedin_price_eur_per_kwh": "Einspeiseverg\u00fctung (\u20ac / kWh)",
+          "charged_kwh_entity": "Sensor: Gesamt geladen (kWh, kumulativ)",
+          "discharged_kwh_entity": "Sensor: Gesamt entladen (kWh, kumulativ)",
+          "baseline_charged_kwh": "Z\u00e4hlerstand zum Start (geladen, kWh)",
+          "baseline_discharged_kwh": "Z\u00e4hlerstand zum Start (entladen, kWh)",
+          "usable_capacity_kwh": "Nutzbare Kapazit\u00e4t (kWh)",
+          "inclusive_days": "Starttag inklusiv z\u00e4hlen"
+        }
+      }
+    }
+  }
+}

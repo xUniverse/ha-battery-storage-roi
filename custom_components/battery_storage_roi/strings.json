@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Battery Storage ROI",
+        "description": "Calculates efficiency, savings and ROI from your cumulative charge/discharge sensors.",
+        "data": {
+          "name": "System name (e.g. 'Basement Battery')",
+          "start_date": "Commissioning date",
+          "install_cost_eur": "Installation cost (\u20ac)",
+          "grid_price_eur_per_kwh": "Grid price (\u20ac / kWh)",
+          "feedin_price_eur_per_kwh": "Feed-in tariff (\u20ac / kWh)",
+          "charged_kwh_entity": "Sensor: Total charged (kWh, cumulative)",
+          "discharged_kwh_entity": "Sensor: Total discharged (kWh, cumulative)",
+          "baseline_charged_kwh": "Initial meter @ start (charged, kWh)",
+          "baseline_discharged_kwh": "Initial meter @ start (discharged, kWh)",
+          "usable_capacity_kwh": "Usable capacity (kWh)",
+          "inclusive_days": "Count start day inclusively"
+        }
+      }
+    }
+  }
+}
