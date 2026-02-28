@@ -1,0 +1,10 @@
+{
+  "domain": "ha_battery_storage_roi",
+  "name": "Battery Storage ROI",
+  "version": "2.0.0",
+  "documentation": "https://github.com/xUniverse/ha-battery-storage-roi",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@yourname"],
+  "iot_class": "calculated"
+}
