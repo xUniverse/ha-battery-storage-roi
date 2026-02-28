@@ -5,6 +5,8 @@
   "documentation": "https://github.com/xUniverse/ha-battery-storage-roi",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@yourname"],
+  "codeowners": [
+    "@yourname"
+  ],
   "iot_class": "calculated"
 }
